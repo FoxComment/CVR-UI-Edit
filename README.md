@@ -1,17 +1,24 @@
 There's two versions of edit<br>
 
-For "lite" version:
+For "lite" version:<br>
 replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`
-and extract everything from `gfx` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`
+and Extract Everything from `gfx` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`
 <br>
-For "full dive" version:
-replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`,
+<br>
+For "full dive" version:<br>
+Replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`,
 `index.html` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`,
-and extract everything from `gfx` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`
-
-<br><br>
-<hr><br>
-But also make a copy of all the og files, just in case
+and Extract Everything from `..\gfx\` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`
 <br>
-A thing in action:[
-](https://foxcomment.tumblr.com/post/741322958636744704/)https://foxcomment.tumblr.com/post/741322958636744704/
+<br>
+You can also replace the HUD icons if you want:<br>
+Extract everything from `..\EditHUD\` into `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVR_HUD\`
+<br><br>
+You can find CVR dir by opening Steam, Right Clicking onc ChilloutVR, Selecting   *Manage > Browse Local Files*   in the Dropdowns.
+<br><br>
+<br><br>
+<hr>
+But also Make a Copy of all the og files, Just In Case~
+<br>
+Video of Edit in Action:<br>
+[](https://foxcomment.tumblr.com/post/741322958636744704/)https://foxcomment.tumblr.com/post/741322958636744704/
