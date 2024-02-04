@@ -12,7 +12,15 @@ and Extract Everything from `..\gfx\` folder to `..\ChilloutVR\ChilloutVR_Data\S
 You can also replace the HUD icons if you want:<br>
 Extract everything from `..\EditHUD\` into `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVR_HUD\`<br>
 <br>
+
+You also can change background of the Menu and Plank, I do recommed grayscaling pictures first, and changinc opacity to 5%<br>
+Background and Plank images can be found in `..\gfx\`  as  `background.png`  and  `plank-background.png`
+<br>
+<br>
+
 You can find CVR dir by opening Steam, Right Clicking onc ChilloutVR, Selecting   *Manage > Browse Local Files*   in the Dropdowns.<br>
+<br>
+<br>
 <br>
 <br><br>
 <hr>
