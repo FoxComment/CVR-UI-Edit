@@ -19,4 +19,4 @@ You can find CVR dir by opening Steam, Right Clicking onc ChilloutVR, Selecting 
 But also Make a Copy of all the og files, Just In Case~
 <br>
 Video of Edit in Action:<br>
-[](https://foxcomment.tumblr.com/post/741322958636744704/)https://foxcomment.tumblr.com/post/741322958636744704/
+[](https://foxcomment.tumblr.com/post/741322958636744704/)
