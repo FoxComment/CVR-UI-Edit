@@ -585,16 +585,19 @@ h1 {
     background-color: #464853;
     text-shadow: -1px 0 #b5bac1, 0 1px #b5bac1, 1px 0 #b5bac1, 0 -1px #b5bac1;
     color: #b5bac1;
+    border: .15em solid #4c4f5c;
 }
 .content-panic .action-btn:hover, .content-avatar-functions .action-btn:hover{
     background-color: #4bffaaff;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     color: #000;
+    border: .15em solid rgb(41, 194, 123);
 }
 .content-panic .action-btn:active, .content-avatar-functions .action-btn:active{
     background-color: #00cd87ff;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     color: #000;
+    border: .15em solid rgb(0, 255, 136);
 }
 .content-panic .content-caption{
     font-size: .001px;
@@ -2408,6 +2411,12 @@ padding-top: .75em;
     margin-bottom: 1.25em
 }
 
+.option-caption .inp_toggle {
+    margin-top: -1.75em;
+    margin-bottom: .5em;
+    margin-left:14.75em;
+}
+
 .inp_toggle:hover {
     border: 0.25em solid #4bffaa;
 }
@@ -2416,6 +2425,18 @@ padding-top: .75em;
 }
 
 .option-caption {
+    margin-bottom: .5em;
+    padding-top: 1em;
+    border-left: .25em solid #464853;
+    margin-right: .5em;
+    width: 15em;
+    color: #b5bac1;
+    border-radius: 1.25em;
+    padding-left: .5em;
+}
+
+
+#settings .option-caption {
     margin-left: .5em;
     border-left: .25em solid #464853;
     margin-right: .5em;
@@ -2683,6 +2704,9 @@ padding-top: .75em;
     background: #ffffff;
 }
 
+.keyboard-key:active{
+    animation: flash .1s 1 normal;
+}
 .content-avatar-functions .action-btn {
     text-align: center;
     padding: 40px 0;

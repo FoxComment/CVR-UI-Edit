@@ -294,7 +294,7 @@ h1 {
     position: absolute;
     background-color: #00000000;
     border-radius: 0;
-    color: #ffffff;
+    color: #00000000;
     line-height: 5em;
     font-size: .1px;
     height: 127.5px;
@@ -563,6 +563,10 @@ h1 {
     color: #00000000;
 }
 
+.content-avatar-functions .content-caption{
+    color: #00000000;
+}
+
 .content-avatar-functions { /* HERE */
     position: absolute;
     top: 70%;
@@ -585,14 +589,17 @@ h1 {
     background-color: #464853;
     text-shadow: -1px 0 #b5bac1, 0 1px #b5bac1, 1px 0 #b5bac1, 0 -1px #b5bac1;
     color: #b5bac1;
+    border: .15em solid #4c4f5c;
 }
 .content-panic .action-btn:hover, .content-avatar-functions .action-btn:hover{
     background-color: #4bffaaff;
+    border: .15em solid rgb(41, 194, 123);
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     color: #000;
 }
 .content-panic .action-btn:active, .content-avatar-functions .action-btn:active{
     background-color: #00cd87ff;
+    border: .15em solid rgb(0, 255, 136);
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     color: #000;
 }
@@ -689,11 +696,13 @@ from{ transform: rotate(360deg)}
  0% { 
         box-shadow: 0 0 5em 0em #fff;
         background-color: white;
-    }
+        color: #000;
+}
 100%{ 
         box-shadow: 0 0 0 0 #ffffff;
         background-color: #4bffaa;
-    }
+        color: #000;
+}
 }
 
 @keyframes plankOpenFirstTime {
@@ -1454,12 +1463,11 @@ from{ transform: rotate(360deg)}
     bottom: .95em;
     height: auto;
 }
-
 .content-instance-players .instancePlayer {
     display: flex;
     display: flex;
-    border-radius: 1em;
-    margin-bottom: 0.5em;
+    border-radius: 1em 1em 0 0;
+    border-bottom: .5em solid #1e1f22;
 }
 
 .content-instance-players .instancePlayer .instancePlayerImage {
@@ -1824,8 +1832,8 @@ from{ transform: rotate(360deg)}
 }
 .player-instance-players .instancePlayer {
     display: flex;
-    border-radius: 1em;
-    margin-bottom: 0.5em;
+    border-radius: 1em 1em 0 0;
+    border-bottom: .5em solid #121214;
 }
 .player-instance-players .instancePlayer:hover {
     background-color: #313338; 
@@ -2406,6 +2414,11 @@ padding-top: .75em;
     margin-bottom: 1.25em
 }
 
+.option-caption .inp_toggle {
+    margin-top: -1.75em;
+    margin-bottom: .5em;
+    margin-left:14.75em;
+}
 .inp_toggle:hover {
     border: 0.25em solid #4bffaa;
 }
@@ -2413,7 +2426,19 @@ padding-top: .75em;
     background-color:#00cd87;
 }
 
-.option-caption {
+ .option-caption {
+    margin-bottom: .5em;
+    padding-top: 1em;
+    border-left: .25em solid #464853;
+    margin-right: .5em;
+    width: 15em;
+    color: #b5bac1;
+    border-radius: 1.25em;
+    padding-left: .5em;
+}
+
+
+#settings .option-caption {
     margin-left: .5em;
     border-left: .25em solid #464853;
     margin-right: .5em;
@@ -2638,8 +2663,7 @@ padding-top: .75em;
 .keyboard-mod:hover,
 .keyboard-func:hover,
 .keyboard-key.active,
-.keyboard-mod.active,
-.keyboard-func.active {
+.keyboard-mod.active {
     background-color: rgb(68, 255, 168);
 }
 .keyboard-key + .keyboard-key,
@@ -2681,6 +2705,9 @@ padding-top: .75em;
     background: #ffffff;
 }
 
+.keyboard-key:active{
+    animation: flash .1s 1 normal;
+}
 .content-avatar-functions .action-btn {
     text-align: center;
     padding: 40px 0;
