@@ -1461,8 +1461,8 @@ from{ transform: rotate(360deg)}
 .content-instance-players .instancePlayer {
     display: flex;
     display: flex;
-    border-radius: 1em;
-    margin-bottom: 0.5em;
+    border-radius: 1em 1em 0 0;
+    border-bottom: .5em solid #1e1f22;
 }
 
 .content-instance-players .instancePlayer .instancePlayerImage {
@@ -1827,8 +1827,8 @@ from{ transform: rotate(360deg)}
 }
 .player-instance-players .instancePlayer {
     display: flex;
-    border-radius: 1em;
-    margin-bottom: 0.5em;
+    border-radius: 1em 1em 0 0;
+    border-bottom: .5em solid #121214;
 }
 .player-instance-players .instancePlayer:hover {
     background-color: #313338; 
