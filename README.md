@@ -1,13 +1,15 @@
-**There's two versions of edit;**
+**There are two versions of the edit;**
  <br>
  <br>
 
- **For "lite" version:**
+ **"lite" version:**
  <br>
+Changes UI style.<br>
 replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`<br>
 and Extract Everything from `gfx` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`<br>
 <br>
- **For "full dive" version:**<br>
+ **"full dive" version:**<br>
+ Changes UI style and adds "Author" button to the prop and avatar detail pages.<br>
 Replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`,<br>
 `index.html` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`,<br>
 and Extract Everything from `..\gfx\` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`<br>

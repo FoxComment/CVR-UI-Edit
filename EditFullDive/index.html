@@ -185,7 +185,7 @@
             <div id="worlds" class="content hidden">
                 <div class="list-filter">
                     <h1>Worlds</h1>
-                    <div class="scroll-content" >
+                    <div class="scroll-content" style="top: 4em; bottom: 3em;">
                         <div class="filter-content"></div>
                     </div>
                     <!--<div class="content-btn button first" onclick="filterContent('worlds', 'wrldactive');">Reset Filters</div>-->
@@ -274,7 +274,7 @@
             <div id="settings" class="content hidden">
                 <div class="list-filter">
                     <h1>Settings</h1>
-                    <div class="scroll-content" >
+                    <div class="scroll-content" style="top: 4em; bottom: 3em;">
                         <div class="filter-content">
                             <div class="filter-option button active" onclick="switchSettingCategorie('settings-general', this)">General</div>
                             <div class="filter-option button" onclick="switchSettingCategorie('settings-graphics', this)">Graphics</div>
@@ -3123,7 +3123,7 @@
                     <div class="toolbar-btn button"></div>
                     <div class="toolbar-btn button"></div>
                     <div class="toolbar-btn button"></div>
-                    <div class="toolbar-btn button"></div>
+					<div class="toolbar-btn button author-btn">Author</div>
                 </div>
                 
                 <div class="favorite-category-selection">
@@ -3144,12 +3144,13 @@
 
                 <div class="prop-sidebar">
                     <img class="prop-image" src="gfx/placeholder-square.png">
-                    <h2 class="author">[Author name]</h2>
+                    <!-- <h2 class="author">[Author name]</h2> -->
+                    <!-- <div class="content-caption">The author</div> -->
 
                     <p class="privacy">Publication: <span>Private/Public</span></p>
-                    <p class="uploaded">Avatar Uploaded: <span>2021-02-12</span></p>
-                    <p class="updated">Avatar Updated: <span>2021-02-12</span></p>
-                    <p class="size">Avatar Size: <span>5Mb</span></p>
+                    <p class="uploaded">Prop Uploaded: <span>2021-02-12</span></p>
+                    <p class="updated">Prop Updated: <span>2021-02-12</span></p>
+                    <p class="size">Prop Size: <span>5Mb</span></p>
                 </div>
 
                 <div class="prop-maininformation">
@@ -3168,7 +3169,7 @@
                     <div class="toolbar-btn button"></div>
                     <div class="toolbar-btn button"></div>
                     <div class="toolbar-btn button"></div>
-                    <div class="toolbar-btn button"></div>
+					<div class="toolbar-btn button author-btn">Author</div>
                 </div>
 
                 <div class="favorite-category-selection">
@@ -3181,6 +3182,7 @@
                     </div>
                     <div class="action-btn apply-btn button" onclick="sendPropCategoryUpdate();">Apply</div>
                 </div>
+
             </div>
 
             <div id="avatar-settings" class="content hidden">
@@ -3291,7 +3293,7 @@
                         <input type="text" id="numpad-input" value="0" />
                     </div>
                     <div class="numpad-row r2">
-                        <div class="numpadButton button" data-value="7">17</div>
+                        <div class="numpadButton button" data-value="7">7</div>
                         <div class="numpadButton button" data-value="8">8</div>
                         <div class="numpadButton button" data-value="9">9</div>
                     </div>
@@ -3347,17 +3349,19 @@
             </div>
 
             <div class="toolbar">
+                <div class="toolbar-btn button active tab_btn_home" onclick="changeTab('home', this);"><img src="gfx/nav-home.svg">Home</div>
                 <div class="toolbar-btn button tab_btn_friends" onclick="changeTab('friends', this);"><img src="gfx/nav-friends.svg">Friends</div>
                 <div class="toolbar-btn button tab_btn_avatars" onclick="changeTab('avatars', this);"><img src="gfx/nav-avatars.svg">Avatars</div>
                 <div class="toolbar-btn button tab_btn_worlds" onclick="changeTab('worlds', this);"><img src="gfx/nav-worlds.svg">Worlds</div>
                 <div class="toolbar-btn button tab_btn_props" onclick="changeTab('props', this);"><img src="gfx/btn-props.svg">Props</div>
                 <div class="toolbar-btn-double">
-                    <div class="time-display toolbar-btn button active tab_btn_home"onclick="changeTab('home', this);">00:00</div>
+                    <div class="time-display">00:00</div>
                     <div id="search-btn" class="action-btn button" onclick="changeTab('search', this);">Search</div>
                 </div>
                 <div onclick="toggleMic();" class="toolbar-btn button action-mute"><img src="gfx/mute.svg">Unmute</div>
                 <div class="toolbar-btn button tab_btn_messages" onclick="changeTab('messages', this);"><img src="gfx/nav-messages.svg">Messages</div>
                 <div class="toolbar-btn button tab_btn_settings" onclick="changeTab('settings', this);"><img src="gfx/nav-settings.svg">Settings</div>
+                <div onclick="mouseUnlock();" class="toolbar-btn button"><img src="gfx/mouse.svg">Cursorlock</div>
                 <div id="props-btn" style="display:none;" onclick="" class="toolbar-btn button"><img src="gfx/mouse.svg">Props</div>
                 <div class="toolbar-btn button tab_btn_exit" onclick="changeTab('exit', this);"><img src="gfx/nav-exit.svg">Exit</div>
             </div>
