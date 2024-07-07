@@ -1044,6 +1044,7 @@ border-color: #4bffaa;
   border: solid .2em #656d78ff;
   color: #b5bac1ff;
   background-color: #3b3d44ff;
+  overflow: hidden;
   text-shadow: -.5px 0 #b5bac1ff, 0 .5px #b5bac1ff, .5px 0 #b5bac1ff, 0 -.5px #b5bac1ff; 
 }
 #quickmenu-wrapper .avatar-actions .container-back .icon {
@@ -1192,6 +1193,7 @@ border-color: #4bffaa;
   border: solid .2em #656d78ff;
   color: #b5bac1ff;
   background-color: #3b3d44ff;
+  overflow: hidden;
   text-shadow: -.5px 0 #b5bac1ff, 0 .5px #b5bac1ff, .5px 0 #b5bac1ff, 0 -.5px #b5bac1ff; 
 }
 #quickmenu-wrapper .avatar-actions .container-back:hover,
@@ -1332,6 +1334,7 @@ border-color: #4bffaa;
   border: solid .2em #656d78ff;
   color: #b5bac1ff;
   background-color: #3b3d44ff;
+  overflow: hidden;
   text-shadow: -.5px 0 #b5bac1ff, 0 .5px #b5bac1ff, .5px 0 #b5bac1ff, 0 -.5px #b5bac1ff; 
 }
 #quickmenu-wrapper .debug .container-back .icon {
