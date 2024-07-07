@@ -560,7 +560,7 @@ h1 {
 
 .content-feed .content-caption {
     font-size: 0.001px;
-    color: #00000000;
+    color: #00000000  !important;
 }
 
 .content-avatar-functions { /* HERE */
@@ -3512,7 +3512,7 @@ td div {
     border-radius: 0;
     background-color: rgba(178, 94, 94, 0);
     font-size: 0.001px;
-    color: #00000000;
+    color: #00000000  !important; 
     text-align: center;
     line-height: 4em;
     height: 150px;
