@@ -1,20 +1,35 @@
-**There's two versions of edit;**
+**Each menu is presented in two variants;**
  <br>
  <br>
 
- **For "lite" version:**
+
+Big Menu;
+ **For "Safe" version:**
  <br>
-replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`<br>
+Replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`<br>
 and Extract Everything from `gfx` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`<br>
 <br>
- **For "full dive" version:**<br>
+ **For "Full Dive" version:**<br>
 Replace `ui.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`,<br>
 `index.html` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\`,<br>
 and Extract Everything from `..\gfx\` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest\gfx\`<br>
 <br>
-**You can also replace the HUD icons if you want:**<br>
+<br>
+
+Quick Menu;
+ **For "Light" version:**
+ <br>
+Replace `quickmenu.css` and `vars.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\GameUI\`<br>
+and Extract Everything from `gfx` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\GameUI\gfx\`<br>
+<br>
+ **For "Advanced" version:**<br>
+Replace `quickmenu.css` and `vars.css` in `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\GameUI\`,<br>
+and Extract Everything from `..\gfx\` folder to `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\GameUI\gfx\`<br>
+<br>
+**You can also replace the HUD icons if you wish:**<br>
 Extract everything from `..\EditHUD\` into `..\ChilloutVR\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVR_HUD\`
 <br>![Screenshot_145](https://github.com/FoxComment/CVR-UI_Edit/assets/52538405/bde70be6-0e37-42fb-925f-3d915122ce97)
+<br>
 <br>
 <br>
 
