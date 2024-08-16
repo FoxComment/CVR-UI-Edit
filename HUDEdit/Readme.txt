@@ -1,1 +1,0 @@
-Reconnect & tts icons are pngs because Who knows
